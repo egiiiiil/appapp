@@ -1,0 +1,25 @@
+/*  NAV */
+
+.site-nav {
+  height: 100vh;
+  width: 6em;
+  background: #fff;
+  position: fixed;
+  border-right: solid 1px #686868;
+  
+}
+.site-nav-container-flex {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1em;
+  margin-bottom: 0.5em;
+}
+.site-nav-icon {
+  width: 2em;
+  place-items: center;
+}
+/* 
+.site-nav-link { 
+  margin: 0.5em 0;
+} */

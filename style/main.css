@@ -1,1 +1,84 @@
-/* @import "navigation.css"; */
+@import "navigation.css";
+@import "grid.css";
+html {
+  font-size: 20px;
+  line-height: 33px;
+}
+
+/* FONTS & TEXT */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+p {
+  font-size: 1rem;
+  line-height: 1.65rem;
+}
+h1 {
+  font-size: 2.045rem;
+  line-height: 1.519rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+h2 {
+  font-size: 2.045rem;
+  line-height: 1.578rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+h3 {
+  font-size: 1.6rem;
+  line-height: 1.563rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+h4 {
+  font-size: 1.25rem;
+  line-height: 1.6rem;
+  font-family: 'Lato', sans-serif;
+}
+.site-nav-link {
+  font-size: 0.8rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+/* CAROUSEL*/
+.site-grid-carousel{
+  background: rgb(196,237,255);
+  background: radial-gradient(circle, rgba(179,232,255,1) 0%, rgba(255,255,255,0) 47%);
+
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.site-grid-carousel-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.site-grid-carousel {
+  
+}
+.site-grid-carousel-phone {
+  width: 15em;
+}
+#site-grid-carousel-star {
+  width: 7em;
+  height: auto;
+  position: absolute;
+  right: 3em;
+  top: 10em;
+}
+#site-grid-carousel-appstore {
+  margin-top: 2em;
+}
+
+
+/* USAGE */
+.site-usage-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.img-usage-icon { width: 10em;}

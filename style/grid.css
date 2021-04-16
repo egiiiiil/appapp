@@ -1,0 +1,21 @@
+.site-grid-container {
+  margin-left: 6em;
+  width: calc(100% - 6em);
+  display: grid;
+  grid-template-areas:  'carousel carousel carousel'
+                        '. main .'
+                        'footer footer footer';
+  grid-template-columns: auto 60ch auto;
+
+}
+.site-grid-carousel {
+  grid-area: carousel;
+}
+.site-grid-main {grid-area: main;}
+
+
+.site-grid-footer {
+  grid-area: footer;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
