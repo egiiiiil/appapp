@@ -1,48 +1,7 @@
 @import "navigation.css";
 @import "grid.css";
-html {
-  font-size: 20px;
-  line-height: 33px;
-}
+@import "font.css";
 
-/* FONTS & TEXT */
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-p {
-  font-size: 1rem;
-  line-height: 1.65rem;
-}
-h1 {
-  font-size: 2.045rem;
-  line-height: 1.519rem;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-}
-h2 {
-  font-size: 2.045rem;
-  line-height: 1.578rem;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-}
-h3 {
-  font-size: 1.6rem;
-  line-height: 1.563rem;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-}
-h4 {
-  font-size: 1.25rem;
-  line-height: 1.6rem;
-  font-family: 'Lato', sans-serif;
-}
-.site-nav-link {
-  font-size: 0.8rem;
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-}
 
 /* CAROUSEL*/
 .site-grid-carousel{
@@ -51,6 +10,11 @@ h4 {
 
   background-repeat: no-repeat;
   background-position: center;
+}
+.site-grid-carousel-h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .site-grid-carousel-flex {
   display: flex;
@@ -82,3 +46,9 @@ h4 {
   flex-wrap: wrap;
 }
 .img-usage-icon { width: 10em;}
+
+
+
+.img-icon-bottom {
+  width: 2em;
+}
