@@ -1,0 +1,40 @@
+/* MUST HAVE */
+/* MEDIA QUERIES */
+@media only screen  /* MOBILE STYLE*/
+   and (max-width: 812px) {
+      .a{
+         background-color: #fff;
+      }
+}
+
+
+@media only screen /* TABLET STYÖE*/
+   and (max-width: 1279px) {
+      .a{
+         background-color: #fff;
+      }
+   }
+/* - 3 PAGES 
+ *    - start
+ *    - about
+ *    - contact
+ * - 3 JS-COMPONENTS
+ *    - carousel
+      - form
+      - 
+ * - GRID
+ * - FLEXBOX
+ */
+
+
+
+/* IF POSSIBLE */
+/* VARIABLES */
+:root {
+   /* COLOURS*/
+   --sitered: rgb(255, 5, 71);
+   /* FONT COLOURS*/
+   --linkred:    var(var(--sitered));
+   --linkreddark:rgb(255, 5, 80);
+   --linkgrey:   rgb(92, 92, 92);
+}
