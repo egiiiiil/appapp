@@ -1,10 +1,20 @@
+@font-face {
+  font-family: 'Lato Light';
+  src: url('../font/LatoLatin-Light.woff2') format('woff2'), 
+    url('../font/LatoLatin-Light.woff') format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  src: url('../font/LatoLatin-Regular.woff2') format('woff2'), 
+    url('../font/LatoLatin-Regular.woff') format('woff');
+}
 html {
   font-size: 20px;
   line-height: 33px;
 }
 /* FONTS & TEXT */
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -15,28 +25,28 @@ p {
 h1 {
   font-size: 2.045rem;
   line-height: 1.519rem;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
+  font-family: 'Lato Light', sans-serif;
+/*   font-weight: 300; */
 }
 h2 {
   font-size: 2.045rem;
   line-height: 1.578rem;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato Light', sans-serif;
   font-weight: 300;
 }
 h3 {
   font-size: 1.6rem;
   line-height: 1.563rem;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
+  font-family: 'Lato Light', sans-serif;
+/*   font-weight: 300; */
 }
 h4 {
   font-size: 1.25rem;
   line-height: 1.6rem;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato Light', sans-serif;
 }
 .site-nav-link {
   font-size: 0.8rem;
   font-family: 'Lato', sans-serif;
-  font-weight: 400;
+/*   font-weight: 400; */
 }
