@@ -1,8 +1,11 @@
 @import "navigation.css";
 @import "grid.css";
 @import "font.css";
+@import "variables.css";
 
-
+/* START */
+body { background-color: white; }
+body.dark-mode { background-color: black; }
 /* CAROUSEL*/
 .site-grid-carousel{
   background: rgb(196,237,255);
