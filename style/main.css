@@ -1,8 +1,11 @@
 @import "navigation.css";
 @import "grid.css";
 @import "font.css";
+@import "variables.css";
 
-
+/* START */
+body { background-color: white; }
+body.dark-mode { background-color: #121212; }
 /* CAROUSEL*/
 .site-grid-carousel{
   background: rgb(196,237,255);
@@ -10,6 +13,7 @@
 
   background-repeat: no-repeat;
   background-position: center;
+  
 }
 .site-grid-carousel-h1 {
     display: flex;
@@ -20,10 +24,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
-.site-grid-carousel {
-  
+  .site-grid-carousel-phone {
+  -webkit-box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.33); 
+  box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.33);
 }
 .site-grid-carousel-phone {
   width: 15em;
