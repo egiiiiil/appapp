@@ -1,3 +1,4 @@
-let darkModeButton = document.querySelector('.dark-mode-button');
-let element = document.body;
-element.onclick = () => element.classList.toggle('dark-mode');
+let button = document.querySelector( '.dark-mode-button' );
+button.addEventListener( 'click', function () {
+  document.body.classList.toggle( 'dark-mode' );
+});
