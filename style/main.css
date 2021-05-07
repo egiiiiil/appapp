@@ -2,10 +2,11 @@
 @import "grid.css";
 @import "font.css";
 @import "variables.css";
+@import "form.css";
 
 /* START */
-body { background-color: white; }
-body.dark-mode { background-color: #121212; }
+body { background-color: var(--main-white-color); }
+body.dark-mode { background-color: var(--main-darkmode-black-color); }
 /* CAROUSEL*/
 .site-grid-carousel{
   background: rgb(196,237,255);
