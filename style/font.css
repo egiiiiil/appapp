@@ -23,42 +23,42 @@ p {
   line-height: 1.65rem;
   color: #2c2c2c;
 }
-body.dark-mode p { color: #fff; }
+body.dark-mode p { color: var(--main-darkmode-white-color); }
 h1 {
   font-size: 2.045rem;
   line-height: 1.519rem;
   font-family: 'Lato Light', sans-serif;
   color: #2c2c2c;
 }
-body.dark-mode h1 { color: #fff; }
+body.dark-mode h1 { color: var(--main-darkmode-white-color); }
 h2 {
   font-size: 2.045rem;
   line-height: 1.578rem;
   font-family: 'Lato Light', sans-serif;
   font-weight: 300;
 }
-body.dark-mode h2 { color: #fff; }
+body.dark-mode h2 { color: var(--main-darkmode-white-color); }
 h3 {
   font-size: 1.6rem;
   line-height: 1.563rem;
   font-family: 'Lato Light', sans-serif;
   color: #2c2c2c;
 }
-body.dark-mode h3 { color: #fff; }
+body.dark-mode h3 { color: var(--main-darkmode-white-color); }
 h4 {
   font-size: 1.25rem;
   line-height: 1.6rem;
   font-family: 'Lato Light', sans-serif;
   color: #2c2c2c;
 }
-body.dark-mode h4 { color: #fff; }
+body.dark-mode h4 { color: var(--main-darkmode-white-color); }
 .site-nav-link {
   font-size: 0.8rem;
   font-family: 'Lato', sans-serif;
 /*   font-weight: 400; */
 }
 a:link { 
-  color: #2abfff;
+  color: var(--main-blue-color);
   text-decoration: none;
 }
 a:visited { 
@@ -75,7 +75,7 @@ a:active {
 }
 
 .site-nav-link a {
-  color: #2abfff;
+  color: var(--main-blue-color);
 }
 .site-nav-link { text-transform: uppercase; }
 .dark-mode-button { font-weight: 200;}
