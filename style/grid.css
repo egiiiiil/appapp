@@ -2,11 +2,11 @@
   /* margin-left: 6em; */
   width: calc(100%);
   display: grid;
-  grid-template-areas:  'menu carousel carousel'
-                        'menu main .'
-                        'menu aside .'
-                        'menu footer footer';
-  grid-template-columns: auto 60ch auto;
+  grid-template-areas:  'menu . carousel .'
+                        'menu . main .'
+                        'menu . aside .'
+                        'menu footer footer footer';
+  grid-template-columns: min-content auto 60ch auto;
 
 }
 .site-grid-nav {      grid-area: menu; }
@@ -53,10 +53,6 @@
       margin-left: 2%;
       margin-right: 2%;
       padding-bottom: 3em;
-    }
-    .site-grid-main-other {
-      display: grid;
-      grid-template-columns: 1fr;
     }
     .site-grid-footer {
       grid-area: footer;
