@@ -20,7 +20,7 @@ body {
 }
 p {
   font-size: 1rem;
-  line-height: 1.65rem;
+  line-height: 2.2rem;
   color: #2c2c2c;
 }
 body.dark-mode p { color: var(--main-darkmode-white-color); }
@@ -84,3 +84,7 @@ a:active {
   margin-top: 2em;
   margin-bottom: 2em;
 }
+footer {
+  font-size: 0.8rem;
+}
+body.dark-mode footer { color: var(--main-darkmode-white-color); }

@@ -1,0 +1,47 @@
+.site-grid-carousel-flex {
+  height: 30em;
+  
+}
+.site-grid-carousel-phone {
+  width: 15em;
+  position: absolute;
+  z-index: 1;
+  top: 40px;
+}
+.slideshow-container {
+  z-index: 2;
+  position: absolute;
+  top: 40px;
+}
+.mySlides {display: none;}
+.site-grid-carousel-image {
+  border-radius: 30px;
+  width: 15em;
+
+}
+.site-grid-carousel-phone-bezel {
+  width: 15em;
+  z-index: 3;
+  position: absolute;
+  top: 40px;
+}
+#site-grid-carousel-star {
+  width: 7em;
+  height: auto;
+  position: absolute;
+  right: 3em;
+  top: 10em;
+  z-index: 4;
+}
+#site-grid-carousel-appstore {
+  margin-top: 27em;
+  margin-bottom: 2em;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
