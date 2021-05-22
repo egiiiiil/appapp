@@ -1,47 +1,46 @@
-.site-grid-carousel-flex {
-  height: 30em;
-  
+
+.site-grid-carousel-container {
+	position: relative;
 }
 .site-grid-carousel-phone {
-  width: 15em;
-  position: absolute;
-  z-index: 1;
-  top: 40px;
+	width: 15em;
+	position: absolute;
+	z-index: 1;
+
 }
 .slideshow-container {
-  z-index: 2;
-  position: absolute;
-  top: 40px;
+	z-index: 2;
+	position: absolute;
+
 }
-.mySlides {display: none;}
+.carousel-image {display: none;}
 .site-grid-carousel-image {
-  border-radius: 30px;
-  width: 15em;
+	border-radius: 30px;
+	width: 15em;
 
 }
 .site-grid-carousel-phone-bezel {
-  width: 15em;
-  z-index: 3;
-  position: absolute;
-  top: 40px;
+	width: 15em;
+	z-index: 3;
+	position: absolute;
+
 }
 #site-grid-carousel-star {
-  width: 7em;
-  height: auto;
-  position: absolute;
-  right: 3em;
-  top: 10em;
-  z-index: 4;
+	width: 7em;
+	height: auto;
+	position: absolute;
+	right: 3em;
+	top: 10em;
+	z-index: 4;
 }
 #site-grid-carousel-appstore {
-  margin-top: 27em;
-  margin-bottom: 2em;
+	width: 7em;
 }
 .fade-effect {
-  animation-name: fade;
-  animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
 }
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+	from {opacity: .4} 
+	to {opacity: 1}
 }

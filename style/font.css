@@ -1,90 +1,91 @@
 @font-face {
-  font-family: 'Lato Light';
-  src: url('../font/LatoLatin-Light.woff2') format('woff2'), 
-    url('../font/LatoLatin-Light.woff') format('woff');
+	font-family: 'Lato Light';
+	src: url('../font/LatoLatin-Light.woff2') format('woff2'), 
+		url('../font/LatoLatin-Light.woff') format('woff');
 }
 @font-face {
-  font-family: 'Lato';
-  src: url('../font/LatoLatin-Regular.woff2') format('woff2'), 
-    url('../font/LatoLatin-Regular.woff') format('woff');
+	font-family: 'Lato';
+	src: url('../font/LatoLatin-Regular.woff2') format('woff2'), 
+		url('../font/LatoLatin-Regular.woff') format('woff');
 }
 html {
-  font-size: 20px;
-  line-height: 33px;
+	font-size: 20px;
+	line-height: 33px;
 }
 /* FONTS & TEXT */
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  margin: 0;
-  padding: 0;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	margin: 0;
+	padding: 0;
 }
 p {
-  font-size: 1rem;
-  line-height: 2.2rem;
-  color: #2c2c2c;
+	font-size: 1rem;
+	line-height: 2.2rem;
+	color: #2c2c2c;
 }
 body.dark-mode p { color: var(--main-darkmode-white-color); }
 h1 {
-  font-size: 2.045rem;
-  line-height: 1.519rem;
-  font-family: 'Lato Light', sans-serif;
-  color: #2c2c2c;
+	font-size: 2.045rem;
+	line-height: 1.519rem;
+	font-family: 'Lato Light', sans-serif;
+	color: #2c2c2c;
+	text-align: center;
 }
 body.dark-mode h1 { color: var(--main-darkmode-white-color); }
 h2 {
-  font-size: 2.045rem;
-  line-height: 1.578rem;
-  font-family: 'Lato Light', sans-serif;
-  font-weight: 300;
+	font-size: 2.045rem;
+	line-height: 1.578rem;
+	font-family: 'Lato Light', sans-serif;
+	font-weight: 300;
 }
 body.dark-mode h2 { color: var(--main-darkmode-white-color); }
 h3 {
-  font-size: 1.6rem;
-  line-height: 1.563rem;
-  font-family: 'Lato Light', sans-serif;
-  color: #2c2c2c;
+	font-size: 1.6rem;
+	line-height: 1.563rem;
+	font-family: 'Lato Light', sans-serif;
+	color: #2c2c2c;
 }
 body.dark-mode h3 { color: var(--main-darkmode-white-color); }
 h4 {
-  font-size: 1.25rem;
-  line-height: 1.6rem;
-  font-family: 'Lato Light', sans-serif;
-  color: #2c2c2c;
+	font-size: 1.25rem;
+	line-height: 1.6rem;
+	font-family: 'Lato Light', sans-serif;
+	color: #2c2c2c;
 }
 body.dark-mode h4 { color: var(--main-darkmode-white-color); }
 .site-nav-link {
-  font-size: 0.8rem;
-  font-family: 'Lato', sans-serif;
+	font-size: 0.8rem;
+	font-family: 'Lato', sans-serif;
 /*   font-weight: 400; */
 }
 a:link { 
-  color: var(--main-blue-color);
-  text-decoration: none;
+	color: var(--main-blue-color);
+	text-decoration: none;
 }
 a:visited { 
-  color: #464646;
-  text-decoration: none; 
+	color: #464646;
+	text-decoration: none; 
 }
 a:hover { 
-  color: #686868;
-  text-decoration-line: underline;
+	color: #686868;
+	text-decoration-line: underline;
 }
 a:active { 
-  color: #464646;
-  text-decoration-style: wavy;
+	color: #464646;
+	text-decoration-style: wavy;
 }
 
 .site-nav-link a {
-  color: var(--main-blue-color);
+	color: var(--main-blue-color);
 }
 .site-nav-link { text-transform: uppercase; }
 .dark-mode-button { font-weight: 200;}
 
 .site-grid-carousel-h1-actuall {
-  margin-top: 2em;
-  margin-bottom: 2em;
+	margin-top: 2em;
+	margin-bottom: 2em;
 }
 footer {
-  font-size: 0.8rem;
+	font-size: 0.8rem;
 }
 body.dark-mode footer { color: var(--main-darkmode-white-color); }
