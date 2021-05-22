@@ -1,30 +1,30 @@
 /* MUST HAVE
 MEDIA QUERIES
 @media only screen  MOBILE STYLE
-   and (max-width: 812px) {
-      .a{
-         background-color: #fff;
-      }
+	and (max-width: 812px) {
+		.a{
+			background-color: #fff;
+		}
 }
 
 TABLET STYLE
-@media only screen 
-   and (max-width: 1279px) {
-      .a{
-         background-color: #fff;
-      }
-   }
- * - 3 PAGES 
- *    - start
- *    - about
- *    - contact
- * - 3 JS-COMPONENTS
- *    - ☀️ / 🌙
- *    - carousel
- * - GRID
- * - FLEXBOX
- *
- * - form height on mobile
+@media only screen
+	and (max-width: 1279px) {
+		.a{
+			background-color: #fff;
+		}
+	}
+* - 3 PAGES
+*    - start
+*    - about
+*    - contact
+* - 3 JS-COMPONENTS
+*    - ☀️ / 🌙
+*    - carousel
+* - GRID
+* - FLEXBOX
+*
+* 
 
 
 IF POSSIBLE
