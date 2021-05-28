@@ -1,6 +1,8 @@
 
 .site-grid-carousel-container {
 	position: relative;
+	width: 15em;
+	height: 33em;
 }
 .site-grid-carousel-phone {
 	width: 15em;
@@ -8,7 +10,7 @@
 	z-index: 1;
 
 }
-.slideshow-container {
+.carousel-container {
 	z-index: 2;
 	position: absolute;
 

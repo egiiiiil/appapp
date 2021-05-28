@@ -22,6 +22,7 @@ p {
 	font-size: 1rem;
 	line-height: 2.2rem;
 	color: #2c2c2c;
+	font-weight: 300;
 }
 body.dark-mode p { color: var(--main-darkmode-white-color); }
 h1 {
@@ -75,9 +76,9 @@ a:active {
 	text-decoration-style: wavy;
 }
 
-.site-nav-link a {
-	color: var(--main-blue-color);
-}
+.site-nav-link a { color: var(--main-menu-color); }
+body.dark-mode .site-nav-link a {	color: var(--main-darkmode-menu-color); }
+
 .site-nav-link { text-transform: uppercase; }
 .dark-mode-button { font-weight: 200;}
 
@@ -87,5 +88,6 @@ a:active {
 }
 footer {
 	font-size: 0.8rem;
+	font-weight: 300;
 }
 body.dark-mode footer { color: var(--main-darkmode-white-color); }
