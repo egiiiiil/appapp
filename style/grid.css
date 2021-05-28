@@ -1,6 +1,6 @@
 .site-grid-container {
 	/* margin-left: 6em; */
-	width: calc(100%);
+	width: 100%;
 	display: grid;
 	grid-template-areas:  'menu . carousel .'
 												'menu . main .'
@@ -9,14 +9,20 @@
 	grid-template-columns: min-content auto 60ch auto;
 
 }
-.site-grid-nav {      grid-area: menu; }
+.site-grid-nav {      grid-area: menu; width: 100%;}
 .site-grid-carousel { grid-area: carousel; }
+.site-grid-gradient {
+											grid-row: 1;
+											grid-column: 2 / 5;
+											z-index: -1;
+											width: 100%;
+											height: 100%;
+}
 .site-grid-main {     grid-area: main; }
 .site-grid-main-other {
 	display: grid;
 	grid-template-columns: fit-content(200px) 1fr;
 }
-.site-grid-form-container { grid-area: aside; }
 
 .site-grid-footer {
 	grid-area: footer;
@@ -26,34 +32,44 @@
 @media only screen /* TABLET STYLE*/
 	and (max-width: 1279px) {
 		.site-grid-container {
-			width: 98%;
+			width: 100%;
 			display: grid;
 			grid-template-areas:	'menu menu menu'
-										'carousel carousel carousel'
-										'. main .'
-										'. aside .'
-										'footer footer footer';
+														'carousel carousel carousel'
+														'. main .'
+														'. aside .'
+														'footer footer footer';
 			grid-template-columns: auto 60ch auto;
-			margin-left: 2%;
-			margin-right: 2%;
+/* 			margin-left: 2%;
+			margin-right: 2%; */
 			padding-bottom: 3em;
+		}
+		.site-grid-gradient {
+			grid-row: 2;
+			grid-column: 1 / 4;
 		}
 }
 @media only screen  /* MOBILE STYLE*/
 	and (max-width: 812px) {
 		.site-grid-container {
-			width: 98%;
+			width: 100%;
 			display: grid;
 			grid-template-areas:	'menu'
-										'carousel'
-										'main'
-										'aside'
-										'footer';
-			grid-template-columns: 98%;
-			margin-left: 2%;
-			margin-right: 2%;
+														'carousel'
+														'main'
+														'aside'
+														'footer';
+			grid-template-columns: 100%;
 			padding-bottom: 3em;
 		}
+		.site-grid-gradient {
+			grid-row: 2;
+			grid-column: 1;
+		}
+		.site-grid-main {
+			padding-left: 2%;
+			padding-right: 2%;
+		 }
 		.site-grid-footer {
 			grid-area: footer;
 			display: grid;
