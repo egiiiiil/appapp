@@ -2,7 +2,6 @@
 @import "grid.css";
 @import "font.css";
 @import "variables.css";
-@import "form.css";
 @import "carousel.css";
 
 /* START */
@@ -10,10 +9,11 @@ body { background-color: var(--main-white-color); }
 body.dark-mode { background-color: var(--main-darkmode-black-color); }
 .site-grid-gradient {
 	background: rgb(42,191,255);
-	background: conic-gradient(from 0deg at 50% 50%, #2abfff, #5edfff);;	
+	background: conic-gradient(from 0deg at 50% 50%, rgba(42, 191, 255, 0.6), rgba(94, 223, 255, 0.6));	
 	background-repeat: no-repeat;
 	background-position: center;
 }
+body.dark-mode .site-grid-gradient { filter: brightness(.8) contrast(1.2); }
 /* CAROUSEL*/
 .site-grid-carousel-flex {
 	display: flex;
@@ -22,15 +22,43 @@ body.dark-mode { background-color: var(--main-darkmode-black-color); }
 	justify-content: center;
 }
 /* MAIN */
-/* .site-grid-main {
-	background: rgb(255,255,255);
-	background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 7%);
-} */
+/* TABLE*/
+.site-function-table-container {
+	width: 100%;
+	overflow-x: scroll;
+}
+.site-function-table-actuall {
+	min-width: 100%;
+	border-collapse: collapse;
+	
+}
+.site-function-table-actuall thead tr th:first-child {
+	position: sticky;
+	z-index: 1;
+	left: 0;
+	background-color: var(--main-white-color);
+}
+.site-function-table-actuall tbody tr th {
+	position: sticky;
+	z-index: 1;
+	left: 0;
+	background-color: var(--main-white-color);
+}
+.site-function-table-actuall, th, td {
+	padding: 1em;
+}
+.site-function-table-actuall td {
+	min-width: 3em;
+	
+}
 /* USAGE */
 .site-usage-flex {
 	display: flex;
 	flex-wrap: wrap;
 }
 .img-usage-icon { width: 10em;}
-.img-icon-bottom { width: 2em; }
+.img-icon-bottom {
+	width: 2em;
+	fill: firebrick;
+}
 .img-social-bottom { width: 2em; }

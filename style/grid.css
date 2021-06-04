@@ -26,9 +26,14 @@
 
 .site-grid-footer {
 	grid-area: footer;
+	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
+	margin-top: 2em;
+	
+
 }
+.site-grid-footer-1, .site-grid-footer-2, .site-grid-footer-3 {justify-self: center;}
 @media only screen /* TABLET STYLE*/
 	and (max-width: 1279px) {
 		.site-grid-container {
