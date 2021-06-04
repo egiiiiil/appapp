@@ -86,6 +86,14 @@ body.dark-mode .site-nav-link a {	color: var(--main-darkmode-menu-color); }
 	margin-top: 2em;
 	margin-bottom: 2em;
 }
+.site-function-table-actuall th {
+	font-size: 1rem;
+	line-height: 2.2rem;
+	color: #2c2c2c;
+	font-weight: 300;
+}
+.site-function-table-actuall-dea { color: var(--main-blue-color); }
+.site-function-table-actuall-other { color: var(--main-red-color); }
 footer {
 	font-size: 0.8rem;
 	font-weight: 300;

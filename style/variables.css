@@ -1,7 +1,9 @@
 :root {
 /* COLOURS */
---main-blue-color: #2abfff;
+--main-blue-color : #2abfff;
+--main-red-color  : #ff2a6a;
 --main-white-color: #ffffff;
+--main-black-color: #121212;
 
 /* DARK MODE COLOURS */
 --main-darkmode-black-color: #121212;
