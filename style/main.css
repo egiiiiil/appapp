@@ -3,17 +3,24 @@
 @import "font.css";
 @import "variables.css";
 @import "carousel.css";
+@import "other.css";
 
 /* START */
 body { background-color: var(--main-white-color); }
 body.dark-mode { background-color: var(--main-darkmode-black-color); }
 .site-grid-gradient {
-	background: rgb(42,191,255);
+	background: var(--main-blue-color);
 	background: conic-gradient(from 0deg at 50% 50%, rgba(42, 191, 255, 0.6), rgba(94, 223, 255, 0.6));	
 	background-repeat: no-repeat;
 	background-position: center;
 }
 body.dark-mode .site-grid-gradient { filter: brightness(.8) contrast(1.2); }
+
+@media (prefers-color-scheme: dark) { /* CHECK OUT*/
+	.site-grid-gradient {
+		filter: brightness(.8) contrast(1.2);
+	}
+}
 /* CAROUSEL*/
 .site-grid-carousel-flex {
 	display: flex;
@@ -21,7 +28,9 @@ body.dark-mode .site-grid-gradient { filter: brightness(.8) contrast(1.2); }
 	align-items: center;
 	justify-content: center;
 }
-/* MAIN */
+::selection, ::-moz-selection {
+	background-color: rgba(42, 191, 255, 0.616);
+}
 /* TABLE*/
 .site-function-table-container {
 	width: 100%;
@@ -38,27 +47,49 @@ body.dark-mode .site-grid-gradient { filter: brightness(.8) contrast(1.2); }
 	left: 0;
 	background-color: var(--main-white-color);
 }
+body.dark-mode .site-function-table-actuall thead tr th:first-child {
+	background-color:var(--main-darkmode-black-color)
+}
 .site-function-table-actuall tbody tr th {
 	position: sticky;
 	z-index: 1;
 	left: 0;
 	background-color: var(--main-white-color);
 }
+body.dark-mode .site-function-table-actuall tbody tr th {
+	background-color:var(--main-darkmode-black-color)
+}
 .site-function-table-actuall, th, td {
 	padding: 1em;
 }
 .site-function-table-actuall td {
 	min-width: 3em;
-	
 }
 /* USAGE */
 .site-usage-flex {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 }
-.img-usage-icon { width: 10em;}
+.img-usage-icon { 
+	width: 10em;
+	fill: var(--main-black-color);
+}
+body.dark-mode .img-usage-icon {
+	fill: var(--main-darkmode-white-color);
+}
+
+
+/* FOOTER */
 .img-icon-bottom {
 	width: 2em;
-	fill: firebrick;
 }
-.img-social-bottom { width: 2em; }
+
+
+@media only screen  /* MOBILE STYLE*/
+	and (max-width: 812px) {
+		.site-grid-main, .site-grid-aside {
+			padding-left  : 2%;
+			padding-right : 2%;
+		 }
+}
