@@ -13,9 +13,12 @@
 --main-menu-color: #121212;
 --main-darkmode-menu-color: #ffffff;
 
+/* FONT COLORS */
+--main-font-color: #121212;
+--main-font-darkmode-color: #ffffff; 
+--main-font-a-active-color: #464646;
+--main-font-a-darkmode-color: #121212;
 
-
-
-
-
+/* OTHER*/
+--other-img-size: 3em;
 }

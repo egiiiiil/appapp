@@ -1,5 +1,3 @@
-/*  NAV */
-
 .site-grid-nav {
   width: 30rem;
   height: 20em;
@@ -32,13 +30,32 @@
 	
 	width: 5em;
 }
-@media only screen  /* MOBILE STYLE*/
+
+@media only screen /* TABLET STYLE*/
 	and (max-width: 1279px) {
+		.site-grid-nav {
+			max-width: 98%;
+			margin-left: 1%;
+			margin-right: 1%;
+			margin-top: 1%;
+		}
+}
+@media only screen /* IPAD PRO-ISH STYLE*/
+	and (max-width: 1024px) {
+		.site-grid-nav {
+			margin-top: 0.5em;
+			margin-left: 0.5em;
+		}
+}
+@media only screen  /* MOBILE STYLE*/
+	and (max-width: 812px) {
 		.site-grid-nav { 
-/* 			box-shadow: inset 0px -8px 8px 0px rgba(0,0,0,0.33); */
 			margin-top: 0;
-			margin-left: 0;
 			height: auto;
+			max-width: 98%;
+			margin-left  : 1%;
+			margin-right : 1%;
+			margin-top   : 1%;
 		}
 		.site-nav-container-flex {
 			display: flex;
@@ -50,45 +67,49 @@
 			align-items: center;
 		}
 }
-@media only screen /* TABLET STYLE*/
-	and (max-width: 1279px) {
-		.site-grid-nav {
-			max-width: 98%;
-			margin-left: 1%;
-			margin-right: 1%;
-			margin-top: 1%;
-		}
-}
-@media only screen  /* MOBILE STYLE*/
-	and (max-width: 812px) {
-		.site-grid-nav {
+@media only screen  /* WATCH STYLE*/
+	and (max-width: 320px) {
+		.site-grid-nav { 
+			margin-top: 0;
+			height: auto;
 			max-width: 98%;
 			margin-left  : 1%;
 			margin-right : 1%;
 			margin-top   : 1%;
 		}
+		.site-nav-container-flex {
+			display: flex;
+			flex-direction: column;
+			margin-bottom: 0.5em;
+			width: 98%;
+			margin: 0 auto;
+			justify-content: space-between;
+			align-items: center;
+		}
 }
 .site-nav-container-flex-icon {
 	position: relative;
 	height: 3em;
+	margin-top: 1em;
+	margin-right: 1.3em;
 }
 #site-nav-container-flex-icon-1st {
-	width: 2em;
+	width: 1.5em;
 	position: absolute;
 	z-index: 4;
 }
 #site-nav-container-flex-icon-2nd {
-	width: 2em;
+	width: 1.5em;
 	position: absolute;
 	z-index: 3;
 }
 #site-nav-container-flex-icon-3rd {
-	width: 2em;
+	width: 1.5em;
 	position: absolute;
 	z-index: 2;
 }
 #site-nav-container-flex-icon-4th {
-	width: 2em;
+	width: 1.5em;
 	position: absolute;
 	z-index: 1;
 }
@@ -107,8 +128,14 @@
 	background-color: #464646;
 	border:1px solid #686868;
 	border-radius: 15px;
-	width: 100%;
+	width: 5em;
 	color: #fff;
+}
+@media only screen  /* WATCH STYLE*/
+	and (max-width: 320px) {
+		.dark-mode-button { 
+			width: 100%;
+		}
 }
 
 

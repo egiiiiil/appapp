@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 421 420" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
-    <g transform="matrix(1,0,0,1,-3028,0)">
-        <g id="logo-illes" transform="matrix(0.801527,0,0,0.850202,3063.18,420)">
+<svg width="100%" height="100%" viewBox="0 0 420 420" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-3300,-525)">
+        <g id="logo-illes" transform="matrix(0.801527,0,0,0.850202,3335.18,945)">
             <rect x="-43" y="-494" width="524" height="494" style="fill:none;"/>
-            <g transform="matrix(1.32398,0,0,1.29452,-59.1123,-525.684)">
+            <g transform="matrix(1.32398,0,0,1.29452,-60.3599,-525.684)">
                 <path d="M405.119,112.046C405.119,65.72 366.111,28.109 318.065,28.109L103.935,28.109C55.889,28.109 16.881,65.72 16.881,112.046L16.881,318.511C16.881,364.837 55.889,402.448 103.935,402.448L318.065,402.448C366.111,402.448 405.119,364.837 405.119,318.511L405.119,112.046Z" style="fill:url(#_Linear1);"/>
             </g>
             <g transform="matrix(2.18471,0,0,1.3203,-1035.07,-449.066)">
-                <text x="507.562px" y="229.809px" style="font-family:'FiraCode-Bold', 'Fira Code', monospace;font-weight:700;font-size:216px;">Φ</text>
+                <text x="507.562px" y="229.809px" style="font-family:'FiraCode-Bold', 'Fira Code', monospace;font-weight:700;font-size:216px;fill:url(#_Linear2);">Φ</text>
             </g>
-            <g id="bottom" transform="matrix(1.33915,0,0,1.26248,-527.682,-2898.25)">
+            <g id="bottom" transform="matrix(1.33915,0,0,1.26248,-532.012,-2899.43)">
                 <g transform="matrix(0.249391,0.143986,-0.143986,0.249391,629.168,1409.09)">
                     <path d="M350,1857L350,2321" style="fill:none;stroke:black;stroke-width:29.12px;"/>
                 </g>
@@ -64,5 +64,6 @@
     </g>
     <defs>
         <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(336.358,324.316,-336.358,324.316,50.1144,46.0885)"><stop offset="0" style="stop-color:rgb(0,211,54);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(2,174,45);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(85.0892,62.3598,-39.9748,132.737,530.215,120.975)"><stop offset="0" style="stop-color:black;stop-opacity:1"/><stop offset="1" style="stop-color:rgb(52,52,52);stop-opacity:1"/></linearGradient>
     </defs>
 </svg>

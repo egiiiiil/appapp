@@ -1,0 +1,23 @@
+.site-grid-main-other-img {
+	width: var(--other-img-size);
+	padding: var(--other-img-size);
+	display: flex;
+	flex-direction: column;
+}
+.site-grid-main-other-img-actuall {
+	margin-top: 2.3em;
+	width: var(--other-img-size);
+}
+body.dark-mode .site-grid-main-other-img-actuall { filter: brightness(.8) contrast(1.2); }
+@media only screen  /* MOBILE STYLE*/
+	and (max-width: 812px) {
+		.site-grid-main-other-img {
+			width: 100%;
+			padding: 0;
+			flex-direction: row;
+			justify-content: flex-start;
+		}
+		.site-grid-main-other-img-actuall {
+			width: var(--other-img-size);
+		}
+}

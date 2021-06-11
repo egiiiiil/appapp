@@ -35,6 +35,12 @@
 	top: 10em;
 	z-index: 4;
 }
+@media only screen  /* WATCH STYLE*/
+	and (max-width: 320px) {
+		#site-grid-carousel-star {
+			top: 25em;
+		}
+}
 #site-grid-carousel-appstore {
 	width: 7em;
 }
