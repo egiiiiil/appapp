@@ -4,23 +4,20 @@
 @import "variables.css";
 @import "carousel.css";
 @import "other.css";
+@import "about.css";
 
 /* START */
+:root { accent-color: var(--main-blue-color) }
 body { background-color: var(--main-white-color); }
 body.dark-mode { background-color: var(--main-darkmode-black-color); }
 .site-grid-gradient {
 	background: var(--main-blue-color);
-	background: conic-gradient(from 0deg at 50% 50%, rgba(42, 191, 255, 0.6), rgba(94, 223, 255, 0.6));	
+	background: conic-gradient(from 0deg at 50% 50%, rgba(84, 204, 255, 0.6), rgba(129, 230, 255, 0.6));	
 	background-repeat: no-repeat;
 	background-position: center;
 }
 body.dark-mode .site-grid-gradient { filter: brightness(.8) contrast(1.2); }
 
-@media (prefers-color-scheme: dark) { /* CHECK OUT*/
-	.site-grid-gradient {
-		filter: brightness(.8) contrast(1.2);
-	}
-}
 /* CAROUSEL*/
 .site-grid-carousel-flex {
 	display: flex;
@@ -31,6 +28,7 @@ body.dark-mode .site-grid-gradient { filter: brightness(.8) contrast(1.2); }
 ::selection, ::-moz-selection {
 	background-color: rgba(42, 191, 255, 0.616);
 }
+.index-main-start {margin-top: 2em;}
 /* TABLE*/
 .site-function-table-container {
 	width: 100%;
@@ -39,6 +37,7 @@ body.dark-mode .site-grid-gradient { filter: brightness(.8) contrast(1.2); }
 .site-function-table-actuall {
 	min-width: 100%;
 	border-collapse: collapse;
+	text-align: center;
 	
 }
 .site-function-table-actuall thead tr th:first-child {
@@ -91,5 +90,6 @@ body.dark-mode .img-usage-icon {
 		.site-grid-main, .site-grid-aside {
 			padding-left  : 2%;
 			padding-right : 2%;
+			
 		 }
 }

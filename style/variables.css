@@ -1,22 +1,24 @@
 :root {
 /* COLOURS */
---main-blue-color : #2abfff;
---main-red-color  : #ff2a6a;
---main-white-color: #ffffff;
---main-black-color: #121212;
+--main-blue-color			: #2abfff;
+--main-red-color			: hsl(342, 100%, 58%);
+--main-white-color		: #ffffff;
+--main-black-color		: #121212;
+--main-a-visited-color: hsl(198, 100%, 40%);
+--table-blue-color		: hsl(198, 100%, 40%);
 
 /* DARK MODE COLOURS */
 --main-darkmode-black-color: #121212;
 --main-darkmode-white-color: #ffffff;
 
 /* MENU */
---main-menu-color: #121212;
+--main-menu-color					: #121212;
 --main-darkmode-menu-color: #ffffff;
 
 /* FONT COLORS */
---main-font-color: #121212;
---main-font-darkmode-color: #ffffff; 
---main-font-a-active-color: #464646;
+--main-font-color						: #121212;
+--main-font-darkmode-color	: #ffffff; 
+--main-font-a-active-color	: #464646;
 --main-font-a-darkmode-color: #121212;
 
 /* OTHER*/

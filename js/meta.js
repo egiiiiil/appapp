@@ -1,6 +1,9 @@
 meta = () => {
 	let theme = document.createElement('meta');
 	let watch = document.createElement('meta');
+	let viewport = document.createElement('meta');
+	let desc = document.createElement('meta');
+	let robots = document.createElement('meta');
 
 	theme.setAttribute('name', 'theme-color');
 	theme.content = getComputedStyle(document.documentElement).getPropertyValue('--main-blue-color');
@@ -9,6 +12,18 @@ meta = () => {
 	watch.setAttribute('name', 'disabled-adaptations');
 	watch.content = 'watch';
 	document.getElementsByTagName('head')[0].appendChild(watch);
+
+	viewport.setAttribute('name', 'viewport');
+	viewport.content = 'width=device-width, initial-scale=1.0, viewport-fit=cover';
+	document.getElementsByTagName('head')[0].appendChild(viewport);
+
+	desc.setAttribute('name', 'description');
+	desc.content = 'The dea app from appapp is now here for your 3D modelling needs.';
+	document.getElementsByTagName('head')[0].appendChild(desc);
+	
+	robots.setAttribute('name', 'robots');
+	robots.content = 'index, follow';
+	document.getElementsByTagName('head')[0].appendChild(robots);
 }
 meta();
 metaOG = () => {
