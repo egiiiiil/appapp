@@ -16,6 +16,7 @@ body.dark-mode .site-grid-main-other-img-actuall { filter: brightness(.8) contra
 			padding: 0;
 			flex-direction: row;
 			justify-content: flex-start;
+			height: 6em;
 		}
 		.site-grid-main-other-img-actuall {
 			width: var(--other-img-size);
