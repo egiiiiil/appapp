@@ -1,4 +1,3 @@
-
 $('.about-main-img:nth-of-type(odd)').css({
 		'float'					: 'left',
 		'margin-left'		: '-40%',
