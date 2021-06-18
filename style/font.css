@@ -33,6 +33,7 @@ h1 {
 	line-height: 1.519rem;
 	font-family: 'Lato Light', sans-serif;
 	color: var(--main-font-color);
+	margin-top: 2em;
 }
 .site-grid-carousel-h1-actuall {
 	text-align: center;
