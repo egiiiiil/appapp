@@ -12,7 +12,7 @@ body { background-color: var(--main-white-color); }
 body.dark-mode { background-color: var(--main-darkmode-black-color); }
 .site-grid-gradient {
 	background: var(--main-blue-color);
-	background: conic-gradient(from 0deg at 50% 50%, rgba(84, 204, 255, 0.6), rgba(129, 230, 255, 0.6));	
+	background: conic-gradient(at bottom left, rgba(84, 204, 255, 0.6), rgba(129, 230, 255, 0.6));
 	background-repeat: no-repeat;
 	background-position: center;
 }
